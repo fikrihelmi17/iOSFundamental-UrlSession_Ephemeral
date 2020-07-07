@@ -44,7 +44,7 @@ class ViewController: UIViewController {
         //let url = URL(string:"https://www.dicoding.com/blog/wp-content/uploads/2017/10/dicoding-logo-square.png")
         
         let configuration = URLSessionConfiguration.ephemeral
-        let session = URLSession(configuration: configuration)
+        let session = URLSession(configuration: .ephemeral)
         
         //let session = URLSession(configuration: .ephemeral)
         
